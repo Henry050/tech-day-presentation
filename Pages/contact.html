@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Dzuels Foundation</title>
+  <link rel="stylesheet" href="/Css/style.css">
+  <link rel="stylesheet" href="/Css/contact.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container">
+      <div class="logo">
+        <img src="/Images/logo2.webp" alt="Dzuels Foundation Logo">
+      </div>
+      <ul class="nav-list">
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/Pages/about.html">About</a></li>
+        <li><a href="/Pages/event.html">Events</a></li>
+        <li><a href="/Pages/contact.html" class="active contact-btn">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Contact Hero Section -->
+  <section class="contact-hero">
+    <div class="container">
+      <div class="contact-header-content">
+        <p class="section-subtitle">Get in touch</p>
+        <h1>Reach out for inquiries and support</h1>
+        <p class="hero-text">We're here to answer your questions and help you get involved in our mission.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Main Section -->
+  <main class="contact-main">
+    <div class="container">
+      <div class="contact-grid">
+        <!-- Contact Form -->
+        <div class="contact-form-container">
+          <form id="contact-form" method="POST" novalidate>
+            <div class="form-group">
+              <label for="name">Full Name <span class="required">*</span></label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                required
+                placeholder="Enter your full name"
+              />
+              <span class="error-message" id="name-error"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address <span class="required">*</span></label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                placeholder="Enter your email address"
+              />
+              <span class="error-message" id="email-error"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="Enter your phone number"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Subject <span class="required">*</span></label>
+              <select id="subject" name="subject" required>
+                <option value="" disabled selected>Select a subject</option>
+                <option value="general">General Inquiry</option>
+                <option value="volunteer">Volunteer Opportunity</option>
+                <option value="donation">Donation Question</option>
+                <option value="partnership">Partnership Inquiry</option>
+                <option value="other">Other</option>
+              </select>
+              <span class="error-message" id="subject-error"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Your Message <span class="required">*</span></label>
+              <textarea
+                id="message"
+                name="message"
+                maxlength="500"
+                required
+                placeholder="Enter your message (max 500 characters)"
+              ></textarea>
+              <div class="char-count"><span id="char-remaining">500</span> characters remaining</div>
+              <span class="error-message" id="message-error"></span>
+            </div>
+
+            <div class="form-group">
+              <button type="submit" class="submit-btn" id="submit">
+                <span class="btn-text">Send Message</span>
+                <span class="btn-icon"><i class="fas fa-paper-plane"></i></span>
+              </button>
+            </div>
+
+            <div id="form-success" class="success-message">
+              Your message has been sent successfully!
+            </div>
+          </form>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="contact-info">
+          <div class="info-card">
+            <div class="info-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="info-content">
+              <h3>Visit Us</h3>
+              <p>12b Doherty Road, Ijero-Ekiti,
+Ekiti State, Nigeria.</p>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <div class="info-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="info-content">
+              <h3>Email Us</h3>
+              <p><a href="mailto:info@dzuelsfoundation.org">info@dzuelsfoundation.org</a></p>
+              <p><a href="mailto:support@dzuelsfoundation.org">support@dzuelsfoundation.org</a></p>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <div class="info-icon">
+              <i class="fas fa-phone-alt"></i>
+            </div>
+            <div class="info-content">
+              <h3>Call Us</h3>
+              <p><a href="tel:+2341234567890">+234 707 664 6780</a></p>
+              <p><a href="tel:+2340987654321">+234 904 249 3883</a></p>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <div class="info-icon">
+              <i class="fas fa-clock"></i>
+            </div>
+            <div class="info-content">
+              <h3>Working Hours</h3>
+              <p>Monday - Friday: 12:00 PM - 6:00 PM</p>
+            </div>
+          </div>
+
+          <div class="social-links">
+            <h3>Connect With Us</h3>
+            <div class="social-icons">
+              <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+              <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+              <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Map Section -->
+  <section class="map-section">
+    <div class="container">
+      <h2 class="section-title">Find Us</h2>
+      <div class="map-container">
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.4567890123456!2d5.123456789012345!3d7.891234567890123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zN8KwNTMnMjguNCJOIDXCwDA3JzM0LjEiRQ!5e0!3m2!1sen!2sng!4v1234567890123!5m2!1sen!2sng" 
+          width="100%" 
+          height="450" 
+          style="border:0;" 
+          allowfullscreen="" 
+          loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade"
+          aria-label="Google Maps location of Dzuels Foundation">
+        </iframe>
+      </div>
+    </div>
+  </section>
+  <hr>
+    <!-- Footer -->
+    <footer class="main-footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <img src="/Images/logo2.webp" alt="DzEF Foundation Logo" />
+          </div>
+          <div class="footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="/index.html">Home</a></li>
+              <li><a href="/Pages/about.html">About Us</a></li>
+              <li><a href="/Pages/event.html">Events</a></li>
+              <li><a href="/Pages/contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-contact">
+            <h4>Contact Us</h4>
+            <p>
+              <i class="fas fa-map-marker-alt"></i> Ijero Ekiti, Ekiti State,
+              Nigeria
+            </p>
+            <p><i class="fas fa-phone"></i>+234 904 249 3883</p>
+            <p><i class="fas fa-envelope"></i>info@dzuelsfoundation.org</p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>
+            &copy; <span id="year"></span> Dzuels Educational Foundation. All
+            Rights Reserved.
+          </p>
+          <p>Designed with 💝 by <a href="#">Henry Ayomiposi</a></p>
+        </div>
+      </div>
+    </footer>
+
+  <script src="/JS/main.js"></script>
+  <script src="/JS/contact.js"></script>
+</body>
+</html>

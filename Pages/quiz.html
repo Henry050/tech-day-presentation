@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Dzuels Foundation HTML/CSS Quiz for Tech Day">
+  <title>HTML/CSS Quiz | Dzuels Foundation Tech Day</title>
+  <link rel="stylesheet" href="/Css/quiz.css">
+  <link rel="stylesheet" href="/Css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Quiz Header -->
+  <header class="quiz-header">
+    <div class="container">
+      <div class="header-content">
+        <div class="logo">
+          <img src="/Images/logo2.webp" alt="Dzuels Foundation Logo" id="logo">
+        </div>
+        <div class="header-text">
+          <h1>HTML/CSS Quiz</h1>
+        </div>
+        <nav class="quiz-nav">
+          <ul>
+            <li><a href="#student-info"><i class="fas fa-user"></i> Student Info</a></li>
+            <li><a href="#quiz-questions"><i class="fas fa-question-circle"></i> Questions</a></li>
+            <li><a href="/Pages/event.html"><i class="fas fa-calendar-alt"></i> Event</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Quiz Content -->
+  <main class="quiz-main">
+    <div class="container">
+      <form id="quiz-form" method="post" action="https://dzuels.org/practice-project/accessibility-quiz">
+        <!-- Student Information Section -->
+        <section class="student-info" role="region" aria-labelledby="student-info">
+          <h2 id="student-info"><i class="fas fa-user-graduate"></i> Student Information</h2>
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="name">Full Name:</label>
+              <input type="text" id="name" name="name" required placeholder="Enter your full name">
+              <span class="error-message" id="name-error"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required placeholder="Enter your email address">
+              <span class="error-message" id="email-error"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="date">Date of Birth:</label>
+              <input type="date" id="date" name="date" required>
+              <span class="error-message" id="date-error"></span>
+            </div>
+          </div>
+        </section>
+
+        <section class="quiz-questions" role="region" aria-labelledby="quiz-questions">
+  <h2 id="quiz-questions"><i class="fas fa-question-circle"></i> HTML & CSS Questions</h2>
+  
+  <!-- Question 1 -->
+  <div class="question-card">
+    <div class="question-header">
+      <h3><span class="sr-only">Question</span> 1</h3>
+      <p class="question-points">1 point</p>
+    </div>
+    <fieldset class="question-fieldset" name="html-q1">
+      <legend>The legend element represents a caption for the content of its parent fieldset element</legend>
+      <ul class="answers-list">
+        <li><input type="radio" id="html-q1-true" name="html-q1" value="true"><label for="html-q1-true">True</label></li>
+        <li><input type="radio" id="html-q1-false" name="html-q1" value="false"><label for="html-q1-false">False</label></li>
+      </ul>
+    </fieldset>
+  </div>
+
+  <!-- Question 2 -->
+  <div class="question-card">
+    <div class="question-header">
+      <h3><span class="sr-only">Question</span> 2</h3>
+      <p class="question-points">1 point</p>
+    </div>
+    <fieldset class="question-fieldset" name="html-q2">
+      <legend>A label element nesting an input element is required to have a for attribute with the same value as the input's id</legend>
+      <ul class="answers-list">
+        <li><input type="radio" id="html-q2-true" name="html-q2" value="true"><label for="html-q2-true">True</label></li>
+        <li><input type="radio" id="html-q2-false" name="html-q2" value="false"><label for="html-q2-false">False</label></li>
+      </ul>
+    </fieldset>
+  </div>
+
+  <!-- Question 3 -->
+  <div class="question-card">
+    <div class="question-header">
+      <h3><span class="sr-only">Question</span> 3</h3>
+      <p class="question-points">1 point</p>
+    </div>
+    <fieldset class="question-fieldset" name="html-q3">
+      <legend>The &lt;main&gt; tag should only be used once per page to represent the central content</legend>
+      <ul class="answers-list">
+        <li><input type="radio" id="html-q3-true" name="html-q3" value="true"><label for="html-q3-true">True</label></li>
+        <li><input type="radio" id="html-q3-false" name="html-q3" value="false"><label for="html-q3-false">False</label></li>
+      </ul>
+    </fieldset>
+  </div>
+
+  <!-- Question 4 -->
+  <div class="question-card">
+    <div class="question-header">
+      <h3><span class="sr-only">Question</span> 4</h3>
+      <p class="question-points">1 point</p>
+    </div>
+    <fieldset class="question-fieldset" name="css-q1">
+      <legend>An ID selector has higher specificity than a class selector in CSS</legend>
+      <ul class="answers-list">
+        <li><input type="radio" id="css-q1-true" name="css-q1" value="true"><label for="css-q1-true">True</label></li>
+        <li><input type="radio" id="css-q1-false" name="css-q1" value="false"><label for="css-q1-false">False</label></li>
+      </ul>
+    </fieldset>
+  </div>
+
+  <!-- Question 5 -->
+  <div class="question-card">
+    <div class="question-header">
+      <h3><span class="sr-only">Question</span> 5</h3>
+      <p class="question-points">1 point</p>
+    </div>
+    <fieldset class="question-fieldset" name="html-q4">
+      <legend>Each input field must have a corresponding label for better accessibility</legend>
+      <ul class="answers-list">
+        <li><input type="radio" id="html-q4-true" name="html-q4" value="true"><label for="html-q4-true">True</label></li>
+        <li><input type="radio" id="html-q4-false" name="html-q4" value="false"><label for="html-q4-false">False</label></li>
+      </ul>
+    </fieldset>
+  </div>
+
+  <!-- Question 6 -->
+  <div class="question-card">
+    <div class="question-header">
+      <h3><span class="sr-only">Question</span> 6</h3>
+      <p class="question-points">1 point</p>
+    </div>
+    <fieldset class="question-fieldset" name="css-q2">
+      <legend>The z-index property only works on elements that have a position value other than static</legend>
+      <ul class="answers-list">
+        <li><input type="radio" id="css-q2-true" name="css-q2" value="true"><label for="css-q2-true">True</label></li>
+        <li><input type="radio" id="css-q2-false" name="css-q2" value="false"><label for="css-q2-false">False</label></li>
+      </ul>
+    </fieldset>
+  </div>
+
+  <!-- Question 7 -->
+  <div class="question-card">
+    <div class="question-header">
+      <h3><span class="sr-only">Question</span> 7</h3>
+      <p class="question-points">1 point</p>
+    </div>
+    <fieldset class="question-fieldset" name="html-q5">
+      <legend>HTML5 introduced the &lt;article&gt;, &lt;section&gt;, and &lt;aside&gt; elements</legend>
+      <ul class="answers-list">
+        <li><input type="radio" id="html-q5-true" name="html-q5" value="true"><label for="html-q5-true">True</label></li>
+        <li><input type="radio" id="html-q5-false" name="html-q5" value="false"><label for="html-q5-false">False</label></li>
+      </ul>
+    </fieldset>
+  </div>
+
+  <!-- Question 8 -->
+  <div class="question-card">
+    <div class="question-header">
+      <h3><span class="sr-only">Question</span> 8</h3>
+      <p class="question-points">1 point</p>
+    </div>
+    <fieldset class="question-fieldset" name="css-q3">
+      <legend>In CSS, the universal selector is represented by the asterisk (*) symbol</legend>
+      <ul class="answers-list">
+        <li><input type="radio" id="css-q3-true" name="css-q3" value="true"><label for="css-q3-true">True</label></li>
+        <li><input type="radio" id="css-q3-false" name="css-q3" value="false"><label for="css-q3-false">False</label></li>
+      </ul>
+    </fieldset>
+  </div>
+
+  <!-- Question 9 -->
+  <div class="question-card">
+    <div class="question-header">
+      <h3><span class="sr-only">Question</span> 9</h3>
+      <p class="question-points">1 point</p>
+    </div>
+    <fieldset class="question-fieldset" name="html-q6">
+      <legend>The &lt;img&gt; tag requires both src and alt attributes for proper accessibility</legend>
+      <ul class="answers-list">
+        <li><input type="radio" id="html-q6-true" name="html-q6" value="true"><label for="html-q6-true">True</label></li>
+        <li><input type="radio" id="html-q6-false" name="html-q6" value="false"><label for="html-q6-false">False</label></li>
+      </ul>
+    </fieldset>
+  </div>
+
+  <!-- Question 10 -->
+  <div class="question-card">
+    <div class="question-header">
+      <h3><span class="sr-only">Question</span> 10</h3>
+      <p class="question-points">1 point</p>
+    </div>
+    <fieldset class="question-fieldset" name="css-q4">
+      <legend>The "em" unit in CSS is relative to the font-size of its nearest parent element</legend>
+      <ul class="answers-list">
+        <li><input type="radio" id="css-q4-true" name="css-q4" value="true"><label for="css-q4-true">True</label></li>
+        <li><input type="radio" id="css-q4-false" name="css-q4" value="false"><label for="css-q4-false">False</label></li>
+      </ul>
+    </fieldset>
+  </div>
+
+  <!-- Quiz Controls -->
+  <div class="quiz-controls">
+    <button type="button" id="check-answers" class="quiz-btn">
+      <i class="fas fa-check-circle"></i> Check Answers
+    </button>
+    <button type="submit" class="quiz-btn submit-btn">
+      <i class="fas fa-paper-plane"></i> Submit Quiz
+    </button>
+  </div>
+
+  <!-- Results Display -->
+  <div id="quiz-results" class="results-container">
+    <h3>Your Results</h3>
+    <div class="score-display">
+      <p>Score: <span id="score">0</span>/10</p>
+      <p>Percentage: <span id="percentage">0</span>%</p>
+    </div>
+    <div class="feedback">
+      <p id="feedback-text"></p>
+    </div>
+  </div>
+</section>
+
+      </form>
+    </div>
+
+    <hr>
+  </main>
+
+  <!-- Footer -->
+    <footer class="main-footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <img src="/Images/logo2.webp" alt="DzEF Foundation Logo" />
+          </div>
+          <div class="footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="/index.html">Home</a></li>
+              <li><a href="/Pages/about.html">About Us</a></li>
+              <li><a href="/Pages/event.html">Events</a></li>
+              <li><a href="/Pages/contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-contact">
+            <h4>Contact Us</h4>
+            <p>
+              <i class="fas fa-map-marker-alt"></i> Ijero Ekiti, Ekiti State,
+              Nigeria
+            </p>
+            <p><i class="fas fa-phone"></i>+234 904 249 3883</p>
+            <p><i class="fas fa-envelope"></i>info@dzuelsfoundation.org</p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>
+            &copy; <span id="year"></span> Dzuels Educational Foundation. All
+            Rights Reserved.
+          </p>
+          <p>Designed with 💝 by <a href="#">Henry Ayomiposi</a></p>
+        </div>
+      </div>
+    </footer>
+
+  <script src="/JS/quiz.js"></script>
+</body>
+</html>
