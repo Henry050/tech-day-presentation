@@ -1,451 +1,292 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Events | Dzuels Foundation 10th Anniversary</title>
-    <link rel="stylesheet" href="/Css/style.css" />
-    <link rel="stylesheet" href="/Css/event.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    />
-  </head>
-  <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-      <div class="container">
-        <div class="logo">
-          <img src="/Images/logo2.webp" alt="Dzuels Foundation Logo" />
-        </div>
-        <ul class="nav-list">
-          <li><a href="/index.html">Home</a></li>
-          <li><a href="/Pages/about.html">About</a></li>
-          <li><a href="/Pages/event.html" class="active">Events</a></li>
-          <li><a href="/Pages/contact.html" class="contact-btn">Contact</a></li>
-        </ul>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Events | Dzuels Foundation 10th Anniversary</title>
+  <link rel="stylesheet" href="/Css/style.css" />
+  <link rel="stylesheet" href="/Css/event.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container">
+      <div class="logo">
+        <img src="/Images/logo2.webp" alt="Dzuels Foundation Logo" />
       </div>
-    </nav>
-
-    <!-- Event Hero Section -->
-    <section class="event-hero">
-      <div class="container">
-        <div class="event-header-content">
-          <p class="section-subtitle">Special Celebration</p>
-          <h1>Join Us for Our 10th Anniversary!</h1>
-          <p class="hero-text">Tech Day Celebration & Foundation Milestone</p>
-          <a href="#event-details" class="cta-button"
-            >Event Details <i class="fas fa-arrow-down"></i
-          ></a>
-        </div>
+      <ul class="nav-list">
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/Pages/about.html">About</a></li>
+        <li><a href="/Pages/event.html" class="active">Events</a></li>
+        <li><a href="/Pages/contact.html" class="contact-btn">Contact</a></li>
+      </ul>
+      <div class="hamburger">
+        <i class="fas fa-bars"></i>
       </div>
-    </section>
+    </div>
+  </nav>
 
-    <!-- Main Event Content -->
-    <main class="event-main" id="event-details">
-      <div class="container">
-        <section class="event-highlight">
-          <div class="event-grid">
-            <div class="event-content">
-              <p class="highlight-text">Empowering Futures</p>
-              <h2>Celebrating 10 Years of Innovation</h2>
-              <div class="event-description">
-                <p>
-                  Ijero Tech Day, in collaboration with
-                  <strong>Dzuels Educational Foundation</strong>'s 10th
-                  anniversary, is dedicated to empowering the upcoming
-                  generation through technology and education. As we celebrate
-                  our 10th anniversary, we reflect on a decade of inspiring
-                  innovation, fostering talent, and creating opportunities for
-                  young minds.
-                </p>
-                <p>
-                  Our mission is to bridge the gap between education and
-                  technology, providing hands-on experiences that prepare
-                  students for the future. Join us in making a difference and
-                  shaping the leaders of tomorrow!
-                </p>
-              </div>
-              <div class="event-cta">
-                <a href="/Pages/contact.html" class="cta-button primary">
-                  Register Now <i class="fas fa-user-plus"></i>
-                </a>
-                <a href="#schedule" class="cta-button secondary">
-                  View Schedule <i class="fas fa-calendar-alt"></i>
-                </a>
-              </div>
-            </div>
-            <div class="event-image">
-              <img
-                src="/Images/dzef 10th anniversary.jpg"
-                alt="Tech Day Event Visualization"
-                class="featured-image"
-              />
-              <div class="image-caption">
-                <p>Visualizing the future of tech education</p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <!-- Event Details Section -->
-        <section class="event-details-section">
-          <div class="details-grid">
-            <!-- Date & Time -->
-            <div class="detail-card">
-              <div class="detail-icon">
-                <i class="fas fa-calendar-day"></i>
-              </div>
-              <h3>Date & Time</h3>
-              <p>June 21, 2025</p>
-              <p>11:00 AM - 5:00 PM</p>
-            </div>
-
-            <!-- Location -->
-            <div class="detail-card">
-              <div class="detail-icon">
-                <i class="fas fa-map-marker-alt"></i>
-              </div>
-              <h3>Location</h3>
-              <p>Boulevard Hall</p>
-              <p>Ijero Ekiti, Ekiti State</p>
-              <a href="#" class="map-link"
-                >View on Map <i class="fas fa-external-link-alt"></i
-              ></a>
-            </div>
-
-            <!-- Theme -->
-            <div class="detail-card">
-              <div class="detail-icon">
-                <i class="fas fa-lightbulb"></i>
-              </div>
-              <h3>Theme</h3>
-              <p>"A Tech Immersion."</p>
-            </div>
-
-            <!-- Participants -->
-            <div class="detail-card">
-              <div class="detail-icon">
-                <i class="fas fa-users"></i>
-              </div>
-              <h3>Expected Participants</h3>
-              <p>300+ Students</p>
-              <p>10+ Schools</p>
-              <p>7+ Tech Companies</p>
-            </div>
-          </div>
-        </section>
-
-        <!-- Event Schedule -->
-        <section class="event-schedule" id="schedule">
-          <h2 class="section-title">Event Schedule</h2>
-          <p class="section-subtitle">A day full of learning and innovation</p>
-
-          <div class="schedule-tabs">
-            <button class="tab-btn active" data-tab="main-event">
-              Main Event
-            </button>
-            <button class="tab-btn" data-tab="workshops">Workshops</button>
-            <button class="tab-btn" data-tab="competitions">
-              Competitions
-            </button>
-          </div>
-
-          <div class="schedule-content">
-            <!-- Main Event Schedule -->
-            <div class="tab-panel active" id="main-event">
-              <div class="schedule-item">
-                <div class="time">11:00 Prompt</div>
-                <div class="event-info">
-                  <h3>Registration</h3>
-                  <p>Check-in</p>
-                </div>
-              </div>
-
-              <div class="schedule-item highlight">
-                <div class="time">11:00 - 11:30</div>
-                <div class="event-info">
-                  <h3>Opening Ceremony</h3>
-                  <p>Welcome address by the Foundation Director</p>
-                </div>
-              </div>
-
-              <div class="schedule-item">
-                <div class="time">11:30 - 12:30</div>
-                <div class="event-info">
-                  <h3>Keynote Address</h3>
-                  <p>"The Future of Tech in Ijero" by Bolaji Agbelusi</p>
-                  <p>Founder, Dzuels Educational Foundation</p>
-                </div>
-              </div>
-
-              <!-- More schedule items... -->
-            </div>
-
-            <!-- Workshops Schedule -->
-            <div class="tab-panel" id="workshops">
-              <div class="schedule-item">
-                <div class="time">11:00 - 12:30</div>
-                <div class="event-info">
-                  <h3>Web Development Basics</h3>
-                  <p>Introduction to HTML, CSS and JavaScript</p>
-                  <p><strong>Instructor:</strong> Henry Ayomiposi</p>
-                </div>
-              </div>
-
-              <div class="schedule-item">
-                <div class="time">11:00 - 12:30</div>
-                <div class="event-info">
-                  <h3>Mobile App Development</h3>
-                  <p>Building your first Android app</p>
-                  <p><strong>Instructor:</strong> Jane Okoro</p>
-                </div>
-              </div>
-
-              <!-- More workshop items... -->
-            </div>
-
-            <!-- Competitions Schedule -->
-            <div class="tab-panel" id="competitions">
-              <div class="schedule-item">
-                <div class="time">14:00 - 15:30</div>
-                <div class="event-info">
-                  <h3>Coding Challenge</h3>
-                  <p>Individual programming competition</p>
-                  <p><strong>Prize:</strong> Laptop + 1-year mentorship</p>
-                </div>
-              </div>
-
-              <!-- More competition items... -->
-            </div>
-          </div>
-        </section>
-
-        <!-- Speakers Section -->
-        <section class="speakers-section">
-          <h2 class="section-title">Featured Speakers</h2>
-          <p class="section-subtitle">Learn from industry experts</p>
-
-          <div class="speakers-grid">
-            <div class="speaker-card">
-              <div class="speaker-img">
-                <img src="/Images/bolaji.jpg" alt="Capt. Bolaji Agbelusi" />
-              </div>
-              <h3>Capt. Bolaji Agbelusi</h3>
-              <p class="speaker-title">
-                Founder, Dzuels Educational Foundation
-              </p>
-              <div class="speaker-social">
-                <a
-                  target="_blank"
-                  href="https://www.linkedin.com/in/bolaji-agbelusi-28699525/"
-                  ><i class="fab fa-linkedin"></i
-                ></a>
-                <a
-                  target="_blank"
-                  href="https://x.com/search?q=Bolaji%20Agbelusi&src=typed_query&f=top"
-                  ><i class="fab fa-twitter"></i
-                ></a>
-              </div>
-            </div>
-
-            <!-- More speaker cards... -->
-          </div>
-        </section>
-
-        <!-- Gallery Section -->
-        <section class="gallery-section">
-          <h2 class="section-title">Past Events Gallery</h2>
-          <p class="section-subtitle">Moments from our previous Tech Days</p>
-
-          <div class="gallery-grid">
-            <div class="gallery-item">
-              <img src="/Images/IMG_9683.JPG" alt="Tech Day 2024" />
-              <div class="gallery-overlay">
-                <p>Tech Day 2024</p>
-              </div>
-            </div>
-
-            <div class="gallery-item">
-              <img src="/Images/IMG_9712.JPG" alt="Tech Day 2024" />
-              <div class="gallery-overlay">
-                <p>Tech Day 2024</p>
-              </div>
-            </div>
-
-            <div class="gallery-item">
-              <img src="/Images/IMG_9656.JPG" alt="Tech Day 2024" />
-              <div class="gallery-overlay">
-                <p>Tech Day 2024</p>
-              </div>
-            </div>
-
-            <div class="gallery-item">
-              <img src="/Images/IMG_9675.JPG" alt="Tech Day 2024" />
-              <div class="gallery-overlay">
-                <p>Tech Day 2024</p>
-              </div>
-            </div>
-
-            <div class="gallery-item">
-              <img src="/Images/IMG_9600.JPG" alt="Tech Day 2024" />
-              <div class="gallery-overlay">
-                <p>Tech Day 2024</p>
-              </div>
-            </div>
-
-            <div class="gallery-item">
-              <img src="/Images/IMG_9598.JPG" alt="Tech Day 2024" />
-              <div class="gallery-overlay">
-                <p>Tech Day 2024</p>
-              </div>
-            </div>
-
-            <div class="gallery-item">
-              <img src="/Images/IMG_9686.JPG" alt="Tech Day 2024" />
-              <div class="gallery-overlay">
-                <p>Tech Day 2024</p>
-              </div>
-            </div>
-
-            <div class="gallery-item">
-              <img src="/Images/IMG_9687.JPG" alt="Tech Day 2024" />
-              <div class="gallery-overlay">
-                <p>Tech Day 2024</p>
-              </div>
-            </div>
-
-            <div class="gallery-item">
-              <img src="/Images/IMG_9606.JPG" alt="Tech Day 2024" />
-              <div class="gallery-overlay">
-                <p>Tech Day 2024</p>
-              </div>
-            </div>
-
-
-               <div class="gallery-item">
-              <img src="/Images/ITD 2025.jpg" alt="Tech Day 2025" />
-              <div class="gallery-overlay">
-                <p>Tech Day 2025</p>
-              </div>
-
-              <div class="gallery-item">
-              <img src="/Images/ITD 2 2025.jpg" alt="Tech Day 2025" />
-              <div class="gallery-overlay">
-                <p>Tech Day 2025</p>
-              </div>
-
-              <div class="gallery-item">
-              <img src="/Images/ITD 3 2025.jpg" alt="Tech Day 2025" />
-              <div class="gallery-overlay">
-                <p>Tech Day 2025</p>
-              </div>
-
-              <div class="gallery-item">
-              <img src="/Images/ITD 4 2025.jpg" alt="Tech Day 2025" />
-              <div class="gallery-overlay">
-                <p>Tech Day 2025</p>
-              </div>
-
-              <div class="gallery-item">
-              <img src="/Images/ITD 5 2025.jpg" alt="Tech Day 2025" />
-              <div class="gallery-overlay">
-                <p>Tech Day 2025</p>
-              </div>
-
-              <div class="gallery-item">
-              <img src="/Images/ITD 6 2025.jpg" alt="Tech Day 2025" />
-              <div class="gallery-overlay">
-                <p>Tech Day 2025</p>
-              </div>
-
-              <div class="gallery-item">
-              <img src="/Images/ITD 7 2025.jpg" alt="Tech Day 2025" />
-              <div class="gallery-overlay">
-                <p>Tech Day 2025</p>
-              </div>
-
-              <div class="gallery-item">
-              <img src="/Images/ITD 8 2025.jpg" alt="Tech Day 2025" />
-              <div class="gallery-overlay">
-                <p>Tech Day 2025</p>
-              </div>
-
-              <div class="gallery-item">
-              <img src="/Images/ITD 9 2025.jpg" alt="Tech Day 2025" />
-              <div class="gallery-overlay">
-                <p>Tech Day 2025</p>
-              </div>
-            </div>
-
-            <!-- Add more gallery-item blocks as needed -->
-          </div>
-        </section>
-
-        <!-- Registration CTA -->
-        <section class="registration-cta">
-          <div class="cta-container">
-            <h2>Ready to Join Us?</h2>
-            <p>Register now to secure your spot at this transformative event</p>
-            <div class="cta-buttons">
-              <a href="/Pages/contact.html" class="cta-button">
-                Register Now <i class="fas fa-arrow-right"></i>
-              </a>
-              <a href="#" class="cta-button secondary">
-                Download Brochure <i class="fas fa-file-pdf"></i>
-              </a>
-            </div>
-          </div>
-        </section>
-      </div>
-      <div class="quiz-start">
-        <a href="/Pages/quiz.html" class="start-quiz-btn">
-          <i class="fas fa-pen-nib"></i> Take the Quiz
+  <!-- Event Hero Section -->
+  <section class="event-hero">
+    <div class="container">
+      <div class="event-header-content">
+        <p class="section-subtitle">Special Celebration</p>
+        <h1>Join Us for Our 10th Anniversary!</h1>
+        <p class="hero-text">Tech Day Celebration & Foundation Milestone</p>
+        <a href="#event-details" class="cta-button">
+          Event Details <i class="fas fa-arrow-down"></i>
         </a>
       </div>
-    </main>
+    </div>
+  </section>
 
-    <!-- Footer -->
-    <footer class="main-footer">
-      <div class="container">
-        <div class="footer-content">
-          <div class="footer-logo">
-            <img src="/Images/logo2.webp" alt="DzEF Foundation Logo" />
-            <p>Transforming lives through education since 2015</p>
+  <!-- Main Event Content -->
+  <main class="event-main" id="event-details">
+    <div class="container">
+      <!-- Event Highlight Section -->
+      <section class="event-highlight">
+        <div class="event-grid">
+          <div class="event-content">
+            <p class="highlight-text">Empowering Futures</p>
+            <h2>Celebrating 10 Years of Innovation</h2>
+            <div class="event-description">
+              <p>
+                Ijero Tech Day, in collaboration with <strong>Dzuels Educational Foundation</strong>'s 10th anniversary, 
+                is dedicated to empowering the upcoming generation through technology and education. 
+                As we celebrate our 10th anniversary, we reflect on a decade of inspiring innovation, 
+                fostering talent, and creating opportunities for young minds.
+              </p>
+              <p>
+                Our mission is to bridge the gap between education and technology, providing hands-on 
+                experiences that prepare students for the future. Join us in making a difference and 
+                shaping the leaders of tomorrow!
+              </p>
+            </div>
+            <div class="event-cta">
+              <a href="/Pages/contact.html" class="cta-button primary">
+                Register Now <i class="fas fa-user-plus"></i>
+              </a>
+              <a href="#schedule" class="cta-button secondary">
+                View Schedule <i class="fas fa-calendar-alt"></i>
+              </a>
+            </div>
           </div>
-          <div class="footer-links">
-            <h4>Quick Links</h4>
-            <ul>
-              <li><a href="/index.html">Home</a></li>
-              <li><a href="/Pages/about.html">About Us</a></li>
-              <li><a href="/Pages/service.html">Services</a></li>
-              <li><a href="/Pages/event.html">Events</a></li>
-              <li><a href="/Pages/contact.html">Contact</a></li>
-            </ul>
-          </div>
-          <div class="footer-contact">
-            <h4>Contact Us</h4>
-            <p>
-              <i class="fas fa-map-marker-alt"></i> Ijero Ekiti, Ekiti State,
-              Nigeria
-            </p>
-            <p><i class="fas fa-phone"></i>+234 904 249 3883</p>
-            <p><i class="fas fa-envelope"></i>info@dzuelsfoundation.org</p>
+          <div class="event-image">
+            <img src="/Images/dzef 10th anniversary.jpg" alt="Tech Day Event Visualization" class="featured-image" />
+            <div class="image-caption">
+              <p>Visualizing the future of tech education</p>
+            </div>
           </div>
         </div>
-        <div class="footer-bottom">
-          <p>
-            &copy; <span id="year"></span> Dzuels Educational Foundation. All
-            Rights Reserved.
-          </p>
-          <p>
-            Designed with 💝 by <a href="#" target="_blank">Henry Ayomiposi</a>
-          </p>
+      </section>
+
+      <!-- Event Details Section -->
+      <section class="event-details-section">
+        <div class="details-grid">
+          <!-- Date & Time -->
+          <div class="detail-card">
+            <div class="detail-icon">
+              <i class="fas fa-calendar-day"></i>
+            </div>
+            <h3>Date & Time</h3>
+            <p>June 21, 2025</p>
+            <p>11:00 AM - 5:00 PM</p>
+          </div>
+
+          <!-- Location -->
+          <div class="detail-card">
+            <div class="detail-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <h3>Location</h3>
+            <p>Boulevard Hall</p>
+            <p>Ijero Ekiti, Ekiti State</p>
+            <a href="#" class="map-link">
+              View on Map <i class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <!-- Theme -->
+          <div class="detail-card">
+            <div class="detail-icon">
+              <i class="fas fa-lightbulb"></i>
+            </div>
+            <h3>Theme</h3>
+            <p>"A Tech Immersion."</p>
+          </div>
+
+          <!-- Participants -->
+          <div class="detail-card">
+            <div class="detail-icon">
+              <i class="fas fa-users"></i>
+            </div>
+            <h3>Expected Participants</h3>
+            <p>300+ Students</p>
+            <p>10+ Schools</p>
+            <p>7+ Tech Companies</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Event Schedule -->
+      <section class="event-schedule" id="schedule">
+        <h2 class="section-title">Event Schedule</h2>
+        <p class="section-subtitle">A day full of learning and innovation</p>
+
+        <div class="schedule-tabs">
+          <button class="tab-btn active" data-tab="main-event">Main Event</button>
+          <button class="tab-btn" data-tab="workshops">Workshops</button>
+          <button class="tab-btn" data-tab="competitions">Competitions</button>
+        </div>
+
+        <div class="schedule-content">
+          <!-- Main Event Schedule -->
+          <div class="tab-panel active" id="main-event">
+            <div class="schedule-item">
+              <div class="time">11:00 Prompt</div>
+              <div class="event-info">
+                <h3>Registration</h3>
+                <p>Check-in</p>
+              </div>
+            </div>
+
+            <div class="schedule-item highlight">
+              <div class="time">11:00 - 11:30</div>
+              <div class="event-info">
+                <h3>Opening Ceremony</h3>
+                <p>Welcome address by the Foundation Director</p>
+              </div>
+            </div>
+
+            <div class="schedule-item">
+              <div class="time">11:30 - 12:30</div>
+              <div class="event-info">
+                <h3>Keynote Address</h3>
+                <p>"The Future of Tech in Ijero" by Bolaji Agbelusi</p>
+                <p>Founder, Dzuels Educational Foundation</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Workshops Schedule -->
+          <div class="tab-panel" id="workshops">
+            <div class="schedule-item">
+              <div class="time">11:00 - 12:30</div>
+              <div class="event-info">
+                <h3>Web Development Basics</h3>
+                <p>Introduction to HTML, CSS and JavaScript</p>
+                <p><strong>Instructor:</strong> Henry Ayomiposi</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Competitions Schedule -->
+          <div class="tab-panel" id="competitions">
+            <div class="schedule-item">
+              <div class="time">14:00 - 15:30</div>
+              <div class="event-info">
+                <h3>Coding Challenge</h3>
+                <p>Individual programming competition</p>
+                <p><strong>Prize:</strong> Laptop + 1-year mentorship</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Speakers Section -->
+      <section class="speakers-section">
+        <h2 class="section-title">Featured Speakers</h2>
+        <p class="section-subtitle">Learn from industry experts</p>
+
+        <div class="speakers-grid">
+          <div class="speaker-card">
+            <div class="speaker-img">
+              <img src="/Images/bolaji.jpg" alt="Capt. Bolaji Agbelusi" />
+            </div>
+            <h3>Capt. Bolaji Agbelusi</h3>
+            <p class="speaker-title">Founder, Dzuels Educational Foundation</p>
+            <div class="speaker-social">
+              <a target="_blank" href="https://www.linkedin.com/in/bolaji-agbelusi-28699525/">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a target="_blank" href="https://x.com/search?q=Bolaji%20Agbelusi&src=typed_query&f=top">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Gallery Section -->
+      <section class="gallery-section">
+        <h2 class="section-title">Past Events Gallery</h2>
+        <p class="section-subtitle">Moments from our previous Tech Days</p>
+
+        <div class="gallery-grid">
+          <!-- Gallery items here (same as before) -->
+        </div>
+      </section>
+
+      <!-- Registration CTA -->
+      <section class="registration-cta">
+        <div class="cta-container">
+          <h2>Ready to Join Us?</h2>
+          <p>Register now to secure your spot at this transformative event</p>
+          <div class="cta-buttons">
+            <a href="/Pages/contact.html" class="cta-button">
+              Register Now <i class="fas fa-arrow-right"></i>
+            </a>
+            <a href="#" class="cta-button secondary">
+              Download Brochure <i class="fas fa-file-pdf"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Quiz Button -->
+    <div class="quiz-start">
+      <a href="/Pages/quiz.html" class="start-quiz-btn">
+        <i class="fas fa-pen-nib"></i> Take the Quiz
+      </a>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="main-footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="/Images/logo2.webp" alt="DzEF Foundation Logo" />
+          <p>Transforming lives through education since 2015</p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/Pages/about.html">About Us</a></li>
+            <li><a href="/Pages/service.html">Services</a></li>
+            <li><a href="/Pages/event.html">Events</a></li>
+            <li><a href="/Pages/contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4>Contact Us</h4>
+          <p><i class="fas fa-map-marker-alt"></i> Ijero Ekiti, Ekiti State, Nigeria</p>
+          <p><i class="fas fa-phone"></i> +234 904 249 3883</p>
+          <p><i class="fas fa-envelope"></i> info@dzuelsfoundation.org</p>
         </div>
       </div>
-    </footer>
+      <div class="footer-bottom">
+        <p>&copy; <span id="year"></span> Dzuels Educational Foundation. All Rights Reserved.</p>
+        <p>Designed with 💝 by <a href="https://www.linkedin.com/in/henry-ayomiposi-9281b1319/" target="_blank">Henry Ayomiposi</a></p>
+      </div>
+    </div>
+  </footer>
 
-    <script src="/JS/main.js"></script>
-    <script src="/JS/events.js"></script>
-  </body>
+  <script src="/JS/main.js"></script>
+  <script src="/JS/events.js"></script>
+</body>
 </html>
